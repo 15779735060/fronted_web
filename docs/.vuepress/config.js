@@ -1,4 +1,4 @@
-
+var JavaScript = require('../JavaScript/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -29,15 +29,7 @@ module.exports = {
       { text: 'Gitee', link: 'https://gitee.com/yanxiufei' }
     ],
     sidebar: {
-      '/JavaScript/': [{
-        title: '起步',
-        sidebarDepth: 2,
-        collapsable: true, //可折叠
-        children: [{
-          title: 'JavaScript介绍',
-          path: '/JavaScript/JavaScript介绍.md'
-        }] //2级页面，第一个设置为空字符串时，显示的是README.md的内容
-      }],
+      '/JavaScript/': JavaScript.JavaScriptSidebar,
       '/Vue/': [{
         title: '起步',
         sidebarDepth: 2,
