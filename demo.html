@@ -10,18 +10,24 @@
 
 <body>
   <script>
-    class School{
+    const sleep = (timer = 1000) => {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(true)
+        }, timer)
+      })
     }
-    class Person extends School{
-      // error:Must call super constructor in derived
-      constructor(){
-      }
-      // success
-      constructor(){
-        super()
-      }
+    const sleep2 = (timer = 1000) => {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(true)
+        }, timer)
+      })
     }
-    const p=new Person()
+    Promise.all([sleep(), sleep2()]).then(res => {
+      //执行该回调
+    })
+    console.dir(Promise);
   </script>
 </body>
 

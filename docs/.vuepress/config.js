@@ -11,7 +11,14 @@ module.exports = {
   },
   themeConfig: {
     nav: [ // 导航栏配置
-      { text: 'JavaScript', link: '/JavaScript/JavaScript介绍.md' },
+      {//这个导航栏对应多个子导航栏
+        text: '前端基础', // 这里的text就是导航栏上的名字
+        items: [
+          { text: 'HTML', link: '/HTML/HTML介绍.md' },
+          { text: 'CSS', link: '/CSS/CSS介绍.md' }, // 对应的路径如下图所示
+          { text: 'JavaScript', link: '/JavaScript/JavaScript介绍.md' }
+        ]
+      },
       {//这个导航栏对应多个子导航栏
         text: '前端框架', // 这里的text就是导航栏上的名字
         items: [
