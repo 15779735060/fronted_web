@@ -66,7 +66,6 @@ module.exports = {
           path: '/Vite/Vite介绍.md'
         }]
       }]
-    },
-    sidebarDepth: 2, // 侧边栏显示2级
+    }
   },
 }

@@ -2,7 +2,6 @@ module.exports = {
   JavaScriptSidebar: [
     {
       title: '起步',
-      sidebarDepth: 2,
       collapsable: true, //可折叠
       children: [{
         title: 'JavaScript介绍',
@@ -11,7 +10,6 @@ module.exports = {
     },
     {
       title: 'ECMAScript',
-      sidebarDepth: 2,
       collapsable: true, //可折叠
       children: [{
         title: '变量声明方式',
@@ -44,8 +42,54 @@ module.exports = {
       {
         title: '各数据类型的原型方法',
         path: '/JavaScript/各数据类型的原型方法.md'
+      },
+      {
+        title: 'Object对象静态方法',
+        path: '/JavaScript/Object对象静态方法.md'
       }
       ] //2级页面，第一个设置为空字符串时，显示的是README.md的内容
     },
+    {
+      title: 'ECMAScript6',
+      collapsable: true, //可折叠
+      children:[
+        {
+          title: 'ES6介绍',
+          path: '/JavaScript/ES6/ES6介绍.md'
+        },
+        {
+          title: '解构赋值',
+          path: '/JavaScript/ES6/解构赋值.md'
+        },
+        {
+          title: 'Map和Set',
+          path: '/JavaScript/ES6/Map和Set.md'
+        },
+        {
+          title:'Reflect和Proxy',
+          path:'/JavaScript/ES6/Reflect和Proxy.md'
+        },
+        {
+          title:'ES6新增原型方法集合',
+          path:'/JavaScript/ES6/ES6新增原型方法集合.md'
+        },
+        {
+          title:'ES6函数',
+          path:'/JavaScript/ES6/ES6函数.md'
+        },
+        {
+          title:'Class类',
+          path:'/JavaScript/ES6/Class类.md'
+        },
+        {
+          title:'Promise',
+          path:'/JavaScript/ES6/Promise.md'
+        },
+        {
+          title:'ES6模块化',
+          path:'/JavaScript/ES6/ES6模块化.md'
+        }
+      ]
+    }
   ]
 }
