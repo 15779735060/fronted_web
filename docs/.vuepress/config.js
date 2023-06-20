@@ -1,4 +1,5 @@
 var JavaScript = require('../JavaScript/sidebar.js')
+var HTMLSidebar=require('../HTML/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -37,6 +38,7 @@ module.exports = {
     ],
     sidebar: {
       '/JavaScript/': JavaScript.JavaScriptSidebar,
+      '/HTML':HTMLSidebar.HTMLSidebar,
       '/Vue/': [{
         title: '起步',
         sidebarDepth: 2,

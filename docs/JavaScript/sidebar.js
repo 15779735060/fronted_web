@@ -46,6 +46,14 @@ module.exports = {
       {
         title: 'Object对象静态方法',
         path: '/JavaScript/Object对象静态方法.md'
+      },
+      {
+        title: '浏览器存储',
+        path: '/JavaScript/浏览器存储.md'
+      },
+      {
+        title: 'Ajax',
+        path: '/JavaScript/Ajax.md'
       }
       ] //2级页面，第一个设置为空字符串时，显示的是README.md的内容
     },

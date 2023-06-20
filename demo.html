@@ -9,26 +9,25 @@
 </head>
 
 <body>
+  <div id="box"></div>
+  <object data="http://yanxiufei.gitee.io/myblog_web" width="500" height="500"></object>
+  <object data="http://yanxiufei.gitee.io/myblog_web/images/logo.jpeg" width="500" height="500"></object>
+  <embed src="http://yanxiufei.gitee.io/myblog_web" width="500" height="500"></embed>
+  <embed src="http://yanxiufei.gitee.io/myblog_web/images/logo.jpeg" width="500" height="500"></embed>
   <script>
-    const sleep = (timer = 1000) => {
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve(true)
-        }, timer)
-      })
+    var ws = new WebSocket("ws://localhost:8080/ws")
+    ws.onopen=function(){
+      console.log('已连接');
     }
-    const sleep2 = (timer = 1000) => {
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve(true)
-        }, timer)
-      })
+    ws.onmessage=function(msg){
+      console.log('已接受服务器的消息',msg);
     }
-    Promise.all([sleep(), sleep2()]).then(res => {
-      //执行该回调
-    })
-    console.dir(Promise);
+    ws.onclose=function(){
+      console.log('连接已关闭');
+    }
+    ws.onerror=function(err){
+      console.log(err);
+    }
   </script>
 </body>
-
 </html>
