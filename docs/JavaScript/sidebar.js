@@ -48,10 +48,6 @@ module.exports = {
         path: '/JavaScript/Object对象静态方法.md'
       },
       {
-        title: '浏览器存储',
-        path: '/JavaScript/浏览器存储.md'
-      },
-      {
         title: 'Ajax',
         path: '/JavaScript/Ajax.md'
       }

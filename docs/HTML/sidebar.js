@@ -9,6 +9,10 @@ module.exports = {
       path: '/HTML/Script标签加载.md'
     },
     {
+      title: '浏览器存储',
+      path: '/HTML/浏览器存储.md'
+    },
+    {
       title: 'Geolocation（地理定位）',
       path: '/HTML/Geolocation（地理定位）.md'
     },

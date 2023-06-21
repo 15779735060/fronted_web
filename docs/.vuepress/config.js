@@ -1,5 +1,6 @@
 var JavaScript = require('../JavaScript/sidebar.js')
 var HTMLSidebar=require('../HTML/sidebar.js')
+var CSSSidebar=require('../CSS/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -37,8 +38,9 @@ module.exports = {
       { text: 'Gitee', link: 'https://gitee.com/yanxiufei' }
     ],
     sidebar: {
-      '/JavaScript/': JavaScript.JavaScriptSidebar,
       '/HTML':HTMLSidebar.HTMLSidebar,
+      '/CSS':CSSSidebar.CSSSidebar,
+      '/JavaScript/': JavaScript.JavaScriptSidebar,
       '/Vue/': [{
         title: '起步',
         sidebarDepth: 2,
