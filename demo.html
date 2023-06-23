@@ -6,28 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .container {
+      width: 500px;
+      height: 300px;
+      border: 1px solid blue;
+      display: grid;
+      grid-template-rows: 30px 30px 30px;
+
+      grid-template-columns: 20px 10px 10px;
+    }
+
+    .item {
+      border: 1px solid red
+    }
+  </style>
 </head>
 
 <body>
-  <div id="box"></div>
-  <object data="http://yanxiufei.gitee.io/myblog_web" width="500" height="500"></object>
-  <object data="http://yanxiufei.gitee.io/myblog_web/images/logo.jpeg" width="500" height="500"></object>
-  <embed src="http://yanxiufei.gitee.io/myblog_web" width="500" height="500"></embed>
-  <embed src="http://yanxiufei.gitee.io/myblog_web/images/logo.jpeg" width="500" height="500"></embed>
-  <script>
-    var ws = new WebSocket("ws://localhost:8080/ws")
-    ws.onopen=function(){
-      console.log('已连接');
-    }
-    ws.onmessage=function(msg){
-      console.log('已接受服务器的消息',msg);
-    }
-    ws.onclose=function(){
-      console.log('连接已关闭');
-    }
-    ws.onerror=function(err){
-      console.log(err);
-    }
-  </script>
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
 </body>
+
 </html>

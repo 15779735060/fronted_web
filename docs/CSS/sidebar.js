@@ -13,12 +13,28 @@ module.exports = {
       path: '/CSS/盒子模型.md'
     },
     {
-      title: 'Flex布局',
-      path: '/CSS/Flex布局.md'
+      title: 'CSS定位',
+      path: '/CSS/CSS定位.md'
     },
     {
       title: 'CSS函数',
       path: '/CSS/CSS函数.md'
+    },
+    {
+      title: 'Flex布局',
+      path: '/CSS/Flex布局.md'
+    },
+    {
+      title: 'Grid布局',
+      path: '/CSS/Grid布局.md'
+    },
+    {
+      title: 'Transition(过渡)',
+      path: '/CSS/Transition.md'
+    },
+    {
+      title: 'Animation(动画)',
+      path: '/CSS/Animation.md'
     }
   ]
 }
