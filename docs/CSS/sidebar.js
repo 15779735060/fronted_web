@@ -29,6 +29,10 @@ module.exports = {
       path: '/CSS/Grid布局.md'
     },
     {
+      title: 'BFC',
+      path: '/CSS/BFC.md'
+    },
+    {
       title: 'Transition(过渡)',
       path: '/CSS/Transition.md'
     },
