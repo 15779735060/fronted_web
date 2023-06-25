@@ -1,12 +1,8 @@
 module.exports = {
   JavaScriptSidebar: [
     {
-      title: '起步',
-      collapsable: true, //可折叠
-      children: [{
-        title: 'JavaScript介绍',
-        path: '/JavaScript/JavaScript介绍.md'
-      }] //2级页面，第一个设置为空字符串时，显示的是README.md的内容
+      title: 'JavaScript介绍',
+      path: '/JavaScript/JavaScript介绍.md'
     },
     {
       title: 'ECMAScript',
