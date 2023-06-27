@@ -34,7 +34,7 @@ module.exports = {
         },
         {
           title: '组件插槽',
-          path: '/Vue/组件基础.md'
+          path: '/Vue/组件插槽.md'
         },
         {
           title: '组件之间的通信',
