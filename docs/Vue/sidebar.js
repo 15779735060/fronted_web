@@ -51,12 +51,38 @@ module.exports = {
       ]
     },
     {
-      title: 'Vue-Router',
+      title: 'VueRouter',
       collapsable: true, //可折叠
-      children: [{
-        title: 'Vue介绍',
-        path: '/Vue/Vue介绍.md'
-      }]
+      children: [
+        {
+          title: 'VueRouter介绍',
+          path: '/Vue/VueRouter/VueRouter介绍.md'
+        },
+        {
+          title: '创建路由表',
+          path: '/Vue/VueRouter/创建路由表.md'
+        },
+        {
+          title: '挂载路由表',
+          path: '/Vue/VueRouter/挂载路由表.md'
+        },
+        {
+          title: '路由视口',
+          path: '/Vue/VueRouter/路由视口.md'
+        },
+        {
+          title: '路由导航',
+          path: '/Vue/VueRouter/路由导航.md'
+        },
+        {
+          title: '路由懒加载',
+          path: '/Vue/VueRouter/路由懒加载.md'
+        },
+        {
+          title: '路由守卫',
+          path: '/Vue/VueRouter/路由守卫.md'
+        }
+      ]
     },
     {
       title: 'Vuex',
