@@ -59,6 +59,10 @@ module.exports = {
           path: '/Vue/VueRouter/VueRouter介绍.md'
         },
         {
+          title: '安装',
+          path: '/Vue/VueRouter/安装.md'
+        },
+        {
           title: '创建路由表',
           path: '/Vue/VueRouter/创建路由表.md'
         },
@@ -87,10 +91,56 @@ module.exports = {
     {
       title: 'Vuex',
       collapsable: true, //可折叠
-      children: [{
-        title: 'Vue介绍',
-        path: '/Vue/Vue介绍.md'
-      }]
+      children: [
+        {
+          title: 'Vuex介绍',
+          path: '/Vue/Vuex/Vuex介绍.md'
+        },
+        {
+          title: '安装',
+          path: '/Vue/Vuex/安装.md'
+        },
+        {
+          title: '创建store容器',
+          path: '/Vue/Vuex/创建store容器.md'
+        },
+        {
+          title: '挂载store容器',
+          path: '/Vue/Vuex/挂载store容器.md'
+        },
+        {
+          title: 'State',
+          path: '/Vue/Vuex/State.md'
+        },
+        {
+          title: 'Mutation',
+          path: '/Vue/Vuex/Mutation.md'
+        },
+        {
+          title: 'Action',
+          path: '/Vue/Vuex/Action.md'
+        },
+        {
+          title: 'Getter',
+          path: '/Vue/Vuex/Getter.md'
+        },
+        {
+          title: 'Module',
+          path: '/Vue/Vuex/Module.md'
+        },
+        {
+          title: '组合式API',
+          path: '/Vue/Vuex/组合式API.md'
+        },
+        {
+          title: 'TypeScript支持',
+          path: '/Vue/Vuex/TypeScript支持.md'
+        },
+        {
+          title: '最佳实践',
+          path: '/Vue/Vuex/最佳实践.md'
+        }
+      ]
     },
     {
       title: 'Pinia',
