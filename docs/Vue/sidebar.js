@@ -135,10 +135,6 @@ module.exports = {
         {
           title: 'TypeScript支持',
           path: '/Vue/Vuex/TypeScript支持.md'
-        },
-        {
-          title: '最佳实践',
-          path: '/Vue/Vuex/最佳实践.md'
         }
       ]
     },
