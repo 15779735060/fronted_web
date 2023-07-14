@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /images/logo.jpeg
-tagline: HTML + CSS + JavaScript
+tagline: 一个记录前端技术成长的站点
 actionText: 开始学习 →
-actionLink: /JavaScript/JavaScript介绍.html
+actionLink: /HTML/HTML介绍.html
 features:
   - title: 前端基础
     details: HTML、CSS、JavaScript

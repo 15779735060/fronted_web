@@ -41,13 +41,21 @@ module.exports = {
           path: '/Vue/组件之间的通信.md'
         },
         {
-          title: '双向绑定原理',
-          path: '/Vue/双向绑定原理.md'
+          title: 'Vue初始化流程',
+          path: '/Vue/Vue初始化流程.md'
+        },
+        {
+          title: 'Diff算法过程',
+          path: '/Vue/Diff算法过程.md'
         },
         {
           title: '响应式原理',
           path: '/Vue/响应式原理.md'
-        }
+        },
+        {
+          title: '双向绑定原理',
+          path: '/Vue/双向绑定原理.md'
+        },
       ]
     },
     {
@@ -138,13 +146,13 @@ module.exports = {
         }
       ]
     },
-    {
-      title: 'Pinia',
-      collapsable: true, //可折叠
-      children: [{
-        title: 'Vue介绍',
-        path: '/Vue/Vue介绍.md'
-      }]
-    }
+    /*     {
+          title: 'Pinia',
+          collapsable: true, //可折叠
+          children: [{
+            title: 'Vue介绍',
+            path: '/Vue/Vue介绍.md'
+          }]
+        } */
   ]
 }

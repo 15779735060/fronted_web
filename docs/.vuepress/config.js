@@ -1,7 +1,8 @@
 var JavaScript = require('../JavaScript/sidebar.js')
-var HTMLSidebar=require('../HTML/sidebar.js')
-var CSSSidebar=require('../CSS/sidebar.js')
-var VueSidebar=require('../Vue/sidebar.js')
+var HTMLSidebar = require('../HTML/sidebar.js')
+var CSSSidebar = require('../CSS/sidebar.js')
+var VueSidebar = require('../Vue/sidebar.js')
+var WeappSideBar = require('../Weapp/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -27,6 +28,7 @@ module.exports = {
         items: [
           { text: 'Vue', link: '/Vue/Vue介绍.md' },
           { text: 'React', link: '/React/React介绍.md' }, // 对应的路径如下图所示
+          { text: '微信小程序', link: '/Weapp/介绍.md' },
         ]
       },
       {//这个导航栏对应多个子导航栏
@@ -39,10 +41,11 @@ module.exports = {
       { text: 'Gitee', link: 'https://gitee.com/yanxiufei' }
     ],
     sidebar: {
-      '/HTML':HTMLSidebar.HTMLSidebar,
-      '/CSS':CSSSidebar.CSSSidebar,
+      '/HTML': HTMLSidebar.HTMLSidebar,
+      '/CSS': CSSSidebar.CSSSidebar,
       '/JavaScript/': JavaScript.JavaScriptSidebar,
       '/Vue/': VueSidebar.VueSidebar,
+      '/Weapp': WeappSideBar.WeAppSidebar,
       '/React/': [{
         title: '起步',
         sidebarDepth: 2,
