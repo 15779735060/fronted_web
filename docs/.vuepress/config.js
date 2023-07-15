@@ -3,6 +3,7 @@ var HTMLSidebar = require('../HTML/sidebar.js')
 var CSSSidebar = require('../CSS/sidebar.js')
 var VueSidebar = require('../Vue/sidebar.js')
 var WeappSideBar = require('../Weapp/sidebar.js')
+var UniappSideBar = require('../Uniapp/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -29,6 +30,7 @@ module.exports = {
           { text: 'Vue', link: '/Vue/Vue介绍.md' },
           { text: 'React', link: '/React/React介绍.md' }, // 对应的路径如下图所示
           { text: '微信小程序', link: '/Weapp/介绍.md' },
+          { text: 'Uniapp', link: '/Uniapp/介绍.md' },
         ]
       },
       {//这个导航栏对应多个子导航栏
@@ -45,7 +47,8 @@ module.exports = {
       '/CSS': CSSSidebar.CSSSidebar,
       '/JavaScript/': JavaScript.JavaScriptSidebar,
       '/Vue/': VueSidebar.VueSidebar,
-      '/Weapp': WeappSideBar.WeAppSidebar,
+      '/Weapp': WeappSideBar.WeappSidebar,
+      '/Uniapp': UniappSideBar.UniappSidebar,
       '/React/': [{
         title: '起步',
         sidebarDepth: 2,

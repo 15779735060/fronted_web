@@ -1,5 +1,5 @@
 module.exports = {
-  WeAppSidebar: [
+  WeappSidebar: [
     {
       title: '介绍',
       path: '/Weapp/介绍.md'
