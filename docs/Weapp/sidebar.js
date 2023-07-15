@@ -5,8 +5,12 @@ module.exports = {
       path: '/Weapp/介绍.md'
     },
     {
-      title: '全局配置与页面配置',
-      path: '/Weapp/全局配置与页面配置.md'
+      title: '全局配置',
+      path: '/Weapp/全局配置.md'
+    },
+    {
+      title: '页面配置',
+      path: '/Weapp/页面配置.md'
     },
     {
       title: '生命周期',
