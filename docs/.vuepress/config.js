@@ -4,6 +4,8 @@ var CSSSidebar = require('../CSS/sidebar.js')
 var VueSidebar = require('../Vue/sidebar.js')
 var WeappSideBar = require('../Weapp/sidebar.js')
 var UniappSideBar = require('../Uniapp/sidebar.js')
+var WebpackSideBar=require('../../sidebar.js')
+var GitSidebar=require('../Git/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -17,7 +19,7 @@ module.exports = {
   themeConfig: {
     nav: [ // 导航栏配置
       {//这个导航栏对应多个子导航栏
-        text: '前端基础', // 这里的text就是导航栏上的名字
+        text: '基础', // 这里的text就是导航栏上的名字
         items: [
           { text: 'HTML', link: '/HTML/HTML介绍.md' },
           { text: 'CSS', link: '/CSS/CSS介绍.md' }, // 对应的路径如下图所示
@@ -25,7 +27,7 @@ module.exports = {
         ]
       },
       {//这个导航栏对应多个子导航栏
-        text: '前端框架', // 这里的text就是导航栏上的名字
+        text: '框架', // 这里的text就是导航栏上的名字
         items: [
           { text: 'Vue', link: '/Vue/Vue介绍.md' },
           { text: 'React', link: '/React/React介绍.md' }, // 对应的路径如下图所示
@@ -34,10 +36,16 @@ module.exports = {
         ]
       },
       {//这个导航栏对应多个子导航栏
-        text: '前端工程化', // 这里的text就是导航栏上的名字
+        text: '工程化', // 这里的text就是导航栏上的名字
         items: [
           { text: 'Webpack', link: '/Webpack/WebPack介绍.md' },
           { text: 'Vite', link: '/Vite/Vite介绍.md' }, // 对应的路径如下图所示
+        ]
+      },
+      {//这个导航栏对应多个子导航栏
+        text: '工作流', // 这里的text就是导航栏上的名字
+        items: [
+          { text: 'Git', link: '/Git/Git介绍.md' },
         ]
       },
       { text: 'Gitee', link: 'https://gitee.com/yanxiufei' }
@@ -58,15 +66,7 @@ module.exports = {
           path: '/React/React介绍.md'
         }]
       }],
-      '/Webpack/': [{
-        title: '起步',
-        sidebarDepth: 2,
-        collapsable: true,
-        children: [{
-          title: 'Webpack介绍',
-          path: '/Webpack/Webpack介绍.md'
-        }]
-      }],
+      '/Webpack/': WebpackSideBar.WebpackSidebar,
       '/Vite/': [{
         title: '起步',
         sidebarDepth: 2,
@@ -75,7 +75,8 @@ module.exports = {
           title: 'Vite介绍',
           path: '/Vite/Vite介绍.md'
         }]
-      }]
+      }],
+      '/Git/':GitSidebar.GitSidebar
     }
   },
 }
