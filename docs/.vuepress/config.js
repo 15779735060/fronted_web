@@ -4,8 +4,8 @@ var CSSSidebar = require('../CSS/sidebar.js')
 var VueSidebar = require('../Vue/sidebar.js')
 var WeappSideBar = require('../Weapp/sidebar.js')
 var UniappSideBar = require('../Uniapp/sidebar.js')
-var WebpackSideBar=require('../../sidebar.js')
-var GitSidebar=require('../Git/sidebar.js')
+var WebpackSideBar = require('../Webpack/sidebar.js')
+var GitSidebar = require('../Git/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -38,7 +38,7 @@ module.exports = {
       {//这个导航栏对应多个子导航栏
         text: '工程化', // 这里的text就是导航栏上的名字
         items: [
-          { text: 'Webpack', link: '/Webpack/WebPack介绍.md' },
+          { text: 'Webpack', link: '/Webpack/核心/Webpack介绍.md' },
           { text: 'Vite', link: '/Vite/Vite介绍.md' }, // 对应的路径如下图所示
         ]
       },
@@ -76,7 +76,7 @@ module.exports = {
           path: '/Vite/Vite介绍.md'
         }]
       }],
-      '/Git/':GitSidebar.GitSidebar
+      '/Git/': GitSidebar.GitSidebar
     }
   },
 }

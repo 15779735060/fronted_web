@@ -23,10 +23,6 @@ module.exports = {
     {
       title: 'GitFlow工作流',
       path: '/Git/GitFlow工作流.md'
-    },
-    {
-      title: 'Git可视化工具',
-      path: '/Git/Git可视化工具.md'
-    },
+    }
   ]
 }
