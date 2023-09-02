@@ -6,6 +6,7 @@ var WeappSideBar = require('../Weapp/sidebar.js')
 var UniappSideBar = require('../Uniapp/sidebar.js')
 var WebpackSideBar = require('../Webpack/sidebar.js')
 var GitSidebar = require('../Git/sidebar.js')
+var netWorkSidebar = require('../网络/sidebar.js')
 module.exports = {
   title: 'YXF的个人笔记',
   description: 'YXF的个人笔记',
@@ -23,7 +24,8 @@ module.exports = {
         items: [
           { text: 'HTML', link: '/HTML/HTML介绍.md' },
           { text: 'CSS', link: '/CSS/CSS介绍.md' }, // 对应的路径如下图所示
-          { text: 'JavaScript', link: '/JavaScript/JavaScript介绍.md' }
+          { text: 'JavaScript', link: '/JavaScript/JavaScript介绍.md' },
+          { text: '网络', link: '/网络/http协议详解.md' }
         ]
       },
       {//这个导航栏对应多个子导航栏
@@ -54,6 +56,7 @@ module.exports = {
       '/HTML': HTMLSidebar.HTMLSidebar,
       '/CSS': CSSSidebar.CSSSidebar,
       '/JavaScript/': JavaScript.JavaScriptSidebar,
+      '/网络': netWorkSidebar.netWorkSidebar,
       '/Vue/': VueSidebar.VueSidebar,
       '/Weapp': WeappSideBar.WeappSidebar,
       '/Uniapp': UniappSideBar.UniappSidebar,

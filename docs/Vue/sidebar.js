@@ -137,6 +137,10 @@ module.exports = {
           path: '/Vue/Vuex/Module.md'
         },
         {
+          title: '$store是如何挂载到vm实例上的？',
+          path: '/Vue/Vuex/$store是如何挂载到vm实例上的？.md'
+        },
+        {
           title: '组合式API',
           path: '/Vue/Vuex/组合式API.md'
         },

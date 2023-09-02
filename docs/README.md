@@ -6,7 +6,7 @@ actionText: 开始学习 →
 actionLink: /HTML/HTML介绍.html
 features:
   - title: 基础
-    details: HTML、CSS、JavaScript
+    details: HTML、CSS、JavaScript、网络
   - title: 框架
     details: Vue、React
   - title: 工程化
