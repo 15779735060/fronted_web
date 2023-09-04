@@ -1,0 +1,28 @@
+module.exports={
+  projectSidebar:[
+    {
+      title:'业务架构优化',
+      path:'/项目亮点/业务架构优化.md'
+    },
+    {
+      title:'效率优化',
+      path:'/项目亮点/效率优化.md'
+    },
+    {
+      title:'交互优化',
+      path:'/项目亮点/交互优化.md'
+    },
+    {
+      title:'渲染优化',
+      path:'/项目亮点/渲染优化.md'
+    },
+    {
+      title:'网络优化',
+      path:'/项目亮点/网络优化.md'
+    },
+    {
+      title:'开发生产环境编译优化',
+      path:'/项目亮点/开发生产环境编译优化.md'
+    }
+  ]
+}

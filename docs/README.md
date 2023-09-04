@@ -12,6 +12,6 @@ features:
   - title: 工程化
     details: Webpack、Vite、Babel、Eslint、PostCss
   - title: 工作流
-    details: Git
+    details: Git、项目亮点
 footer: 每一种热爱，都值得全力以赴
 ---

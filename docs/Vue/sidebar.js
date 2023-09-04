@@ -45,16 +45,20 @@ module.exports = {
           path: '/Vue/Vue初始化流程.md'
         },
         {
-          title: 'Diff算法过程',
-          path: '/Vue/Diff算法过程.md'
-        },
-        {
           title: '响应式原理',
           path: '/Vue/响应式原理.md'
         },
         {
-          title: '双向绑定原理',
-          path: '/Vue/双向绑定原理.md'
+          title:'computed的原理',
+          path:'/Vue/computed的原理.md'
+        },
+        {
+          title: 'slot的解析过程',
+          path: '/Vue/slot的解析过程.md'
+        },
+        {
+          title: 'Diff算法过程',
+          path: '/Vue/Diff算法过程.md'
         },
       ]
     },

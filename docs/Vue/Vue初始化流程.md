@@ -50,6 +50,10 @@ export Vue
 
 #### 初始化Data,进行数据劫持
 
+#### 初始化computed，创建lazyWatcher
+
+#### 初始化watch
+
 #### 流程图
 &emsp;&emsp;下面是一张vue详细的初始化流程图：
 ![image](../Vue/image/init.png)
